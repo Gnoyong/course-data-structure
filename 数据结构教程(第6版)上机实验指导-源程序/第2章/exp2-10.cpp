@@ -142,8 +142,8 @@ void Mult(PolyNode *ha,PolyNode *hb,PolyNode *&hc)	//ha和bh相乘得到最终的hc
 int main()
 {
 	PolyNode *Poly1,*Poly2,*Poly3;
-	double a[MAX];
-	int b[MAX],n;
+	double a[MAX_SIZE];
+	int b[MAX_SIZE],n;
 	//----创建第1个多项单链表并排序-----
 	a[0]=2;b[0]=3;	a[1]=1;b[1]=0;	a[2]=3;b[2]=1;
 	n=3;
